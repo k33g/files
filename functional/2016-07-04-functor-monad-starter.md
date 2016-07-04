@@ -184,5 +184,3 @@ Comme quoi ...
 Je voudrais vous parler aussi de Maybe, Either, Validation, ... mais cela sera pour plus tard. Si vous ne pouvez pas attendre (bande d'impatients!), vous pouvez regardez cette vidéo où je tente d'expliquer tout cela: https://youtu.be/ZAtdKvpc1UQ
 
 @+ :heart:
-
-
