@@ -175,7 +175,18 @@ let fullOfBuddies = panda
 fullOfBuddies.value == '🐼🐯🐯🐯🐯' //true
 ```
 
+Donc, une **Monad**, c'est ça:
+
 ![:octocat:](pic/monad2.png)
+
+Comme quoi ...
+
+Je voudrais vous parler aussi de Maybe, Either, Validation, ... mais cela sera pour plus tard. Si vous ne pouvez pas attendre (bande d'impatients!), vous pouvez regardez cette vidéo où je tente d'expliquer tout cela:
+
+
+
+
+
 
 
 
