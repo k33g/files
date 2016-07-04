@@ -130,4 +130,10 @@ Donc c'est plutôt :tada: non? Maintenant, vous êtes prêts à passer au mot qu
 
 ## Monad
 
+Nous avons vu que le Functor nous permettait d’obtenir d’autres Functors à partir d’une opération (via `map`) qui prend la valeur du Functor, la transforme pour retourner une nouvelle valeur, et la colle dans un nouveau Functor. Mais imaginons que notre opération que l’on passe à `map`, elle retourne un Functor.
+
+
+
+
+
 
