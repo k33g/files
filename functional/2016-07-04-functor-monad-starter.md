@@ -126,3 +126,8 @@ Donc, le **Functor**, c'est pas dur, c'est un container avec une méthode `map`
 
 ![:octocat:](pic/functor4.png)
 
+Donc c'est plutôt :tada: non? Maintenant, vous êtes prêts à passer au mot qui fait 😱: la **Monad** *(avec un `e` ou pas ❓)*
+
+## Monad
+
+
