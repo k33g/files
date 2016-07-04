@@ -66,7 +66,7 @@ Pour cela, il nous faut un **Functor**, ... Et c'est tout simplement un **Contai
 class Functor {  // je vous 👂 déjà, j'aurais pu faire un extends Container, mais je ne suis pas obligé 😜
   constructor(x) {
     const value = x;
-    Object.defineProperty(this, "value", { get: () => value }) // sortie
+    Object.defineProperty(this, "value", { get: () => value }) 
   }
 
   static of(x) {
@@ -79,7 +79,14 @@ class Functor {  // je vous 👂 déjà, j'aurais pu faire un extends Container,
 }
 ```
 
-Cette  méthode `map` va servir à "chainer des opérations" sur un **Container**... Je vous montre:
+Cette  méthode `map` va servir à "chainer des opérations" sur un **Container**... 
+Cette  méthode `map`:
+- prend une fonction / closure comme paramètre
+- applique cette fonction à la valeur du Container (en fait du Functor)
+- "retourne" un nouveau Container/Functor contenant la nouvelle valeur (résultat de la fonction)
+- l'ancien Container/Functor "n'a pas bougé"
+
+Je vous montre:
 
 ```javascript
 let panda = Functor.of('🐼')
@@ -87,16 +94,35 @@ let panda = Functor.of('🐼')
 let addLapinouBuddy = (me) => me + '🐰'
 let addCatBuddy = (me) => me + '🐱'
 
-panda.map(addLapinouBuddy).value == '🐼🐰'== true
+panda.map(addLapinouBuddy).value == '🐼🐰' // true
 
 panda
   .map(addLapinouBuddy)
   .map(addCatBuddy)
-  .value ==  '🐼🐰🐱'== true
+  .value ==  '🐼🐰🐱' //true
 ```
 
-Ce n'est pas clair? 🙀
+Comment ça ce n'est pas clair? 🙀 ... Je recommence:
 
+```javascript
+let addOne = (value) => value + 1;
+let multiplyBy5 = (value) => value * 5;
+let divideByThree = (value) => value / 3;
 
+let a = Functor.of(23.2);
 
+let b = a
+  .map(addOne)
+  .map(addOne)
+  .map(multiplyBy5)
+  .map(divideByThree);
+
+b.value == 42;
+```
+
+Donc c’est super intéressant pour appliquer un ensemble de traitements tout en gardant l’état initial (et éventuellement les états intermédiaires).
+
+Donc, le **Functor**, c'est pas dur, c'est un container avec une méthode `map`
+
+![:octocat:](pic/functor4.png)
 
