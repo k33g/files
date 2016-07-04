@@ -132,7 +132,11 @@ Donc c'est plutôt :tada: non? Maintenant, vous êtes prêts à passer au mot qu
 
 Nous avons vu que le Functor nous permettait d’obtenir d’autres Functors à partir d’une opération (via `map`) qui prend la valeur du Functor, la transforme pour retourner une nouvelle valeur, et la colle dans un nouveau Functor. Mais imaginons que notre opération que l’on passe à `map`, elle retourne un Functor.
 
+![:octocat:](pic/functor5.png)
 
+Là c'est le drame! Por récupérer les données, il va falloir faire `myFunctor.value.value` (donc si on map des fonctions qui retournent des Functors ça commence à nous retourner des Functors de Functors de Functors... 😝). Du coup faut "aplatir": c’est à dire que je veux une méthode qui supprime les bocaux imbriqués. Nous allons donc ajouter à notre Functor, une méthode `bind`:
+
+![:octocat:](pic/monad1.png)
 
 
 
