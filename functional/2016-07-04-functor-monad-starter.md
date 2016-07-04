@@ -138,6 +138,45 @@ Là c'est le drame! Por récupérer les données, il va falloir faire `myFunctor
 
 ![:octocat:](pic/monad1.png)
 
+Donc, c'est pas dur, une **Monad** c'est un **Functor** avec une méthode `bind`! 🤗
+
+```javascript
+class Monad {
+  constructor(x) {
+    const value = x;
+    Object.defineProperty(this, "value", { get: () => value }) 
+  }
+
+  static of(x) {
+    return new Monad(x);
+  }
+
+  map (fn) {
+    return Monad.of(fn(this.value));
+  }
+  /* So, I'm a monad */
+  bind (fn) {
+    return fn(this.value);
+  }
+}
+```
+
+Et nous l'utiliserons comme ceci:
+```javascript
+let panda = Monad.of('🐼')
+let addTigrouBuddy = (me) => Monad.of(me + '🐯')
+
+let fullOfBuddies = panda
+  .bind(addTigrouBuddy)
+  .bind(addTigrouBuddy)
+  .bind(addTigrouBuddy)
+  .bind(addTigrouBuddy)
+
+fullOfBuddies.value == '🐼🐯🐯🐯🐯' //true
+```
+
+![:octocat:](pic/monad2.png)
+
 
 
 
