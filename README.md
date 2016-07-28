@@ -12,7 +12,7 @@ I don't blog, I commit &amp; push 🐼
 ## Currently, I'm working on:
 
 - [Gololang](http://golo-lang.org/) support for [Atom](https://atom.io/): https://github.com/k33g/golo-ide
-- Golo, Groovy, JavaScript, Java ... libraries to work wit :octocat: API
+- Golo, Groovy, JavaScript, Java ... libraries to work with :octocat: API
 - Document about "How to create your own CI server" 
 - Little CI server in Golo https://github.com/k33g/jarvis-ci
 - Artificial Life (bots) inside a repository :stuck_out_tongue_winking_eye:
