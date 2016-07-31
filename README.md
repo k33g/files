@@ -17,3 +17,8 @@ I don't blog, I commit &amp; push 🐼
 - Little CI server in Golo https://github.com/k33g/jarvis-ci
 - Artificial Life (bots) inside a repository :stuck_out_tongue_winking_eye:
 - ...
+
+## Documents
+
+- :fr: [Initiation aux Monades](functional/2016-07-04-functor-monad-starter.md)
+- :fr: [Récupérer un seul fichier d'un repo :octocat:](github/2016-07-31-ONLY-ONE-FILE.md)
