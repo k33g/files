@@ -4,7 +4,8 @@ I don't blog, I commit &amp; push 🐼
 
 - A question, a remark, go here https://github.com/k33g/files/issues
 - You want to contribute, propose updates, fixes, ... It's here https://github.com/k33g/files/pulls
-
+- :warning: Don't forget to notify me in the issues, it's simple, add the mention `@k33g`
+- If you :heart: this repository, don't forget to :star: it
 
 > My previous blog: http://k33g.github.io/
 
