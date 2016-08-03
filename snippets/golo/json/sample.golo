@@ -39,7 +39,7 @@ function main = |args| {
   """
   println(bob)
 
-  let d = toDynamicObjectTreeFromString(bob: toString())
+  let d = toDynamicObjectTreeFromString(bob)
 
   println(d: id())
   println(d: remark())
