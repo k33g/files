@@ -3,8 +3,14 @@
 ## What
 
 `jsonToDynamicObject.golo` module provides helper functions to transform complex JSON string to DynamicObject
-- install module: `curl -O https://raw.githubusercontent.com/k33g/files/master/snippets/golo/json/jsonToDynamicObject.golo`
-- install sample: `curl -O https://raw.githubusercontent.com/k33g/files/master/snippets/golo/json/sample.golo`
+- install module: 
+  ```  
+  curl -O https://raw.githubusercontent.com/k33g/files/master/snippets/golo/json/jsonToDynamicObject.golo
+  ```
+- install sample: 
+  ```
+  curl -O https://raw.githubusercontent.com/k33g/files/master/snippets/golo/json/sample.golo
+  ```
 
 ## Why
 
