@@ -2,4 +2,4 @@
 
 Mes expérimentations en Groovy / My Groovy experiments
 
-- :fr: Utiliser simplement Groovy avec Atom [play-with-groovy.md](play-with-groovy.md)
+- :fr: Utiliser simplement Groovy avec Atom [2016-08-15-play-with-groovy.md](2016-08-15-play-with-groovy.md)
