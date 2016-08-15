@@ -24,3 +24,5 @@ I don't blog, I commit &amp; push 🐼
 
 - :fr: [Initiation aux Monades](functional/2016-07-04-functor-monad-starter.md)
 - :fr: [Récupérer un seul fichier d'un repo :octocat:](github/2016-07-31-ONLY-ONE-FILE.md)
+- :fr: [Jouer avec Groovy et Atom](groovy/2016-08-15-play-with-groovy.md)
+
