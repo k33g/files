@@ -74,3 +74,5 @@ Et dans votre code Groovy, vous n'avez plus qu'à importer les classes Java souh
 
 Et voilà, vous avez de quoi commencer à coder en **Groovy** simplement et rapidement avec Atom. Maintenant, il ne vous reste plus qu'à trouver un bon bouquin sur Groovy et lire la 📖. :smile:
 
+
+If you :heart: this repository, don't forget to :star: it
