@@ -19,7 +19,6 @@ Pour l'installation de Groovy, je vous laisse vous débrouiller: http://groovy-l
 def add(a, b) {
   return a + b
 }
-
 println add(40, 2)
 ```
 
