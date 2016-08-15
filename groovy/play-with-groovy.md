@@ -2,7 +2,7 @@
 
 Groovy est beaucoup plus intuitif à utiliser que Java. Je l'utilise régulièrement, et ce que j'aime bien, c'est de pouvoir coder en Groovy avec simplement un éditeur de texte (Atom) pour commencer rapidement à mettre en oeuvre une idée. Donc dans ce document, je vous donne 2,3 petits trucs pour commencer paisiblement.
 
-Pour l'installation de Groovy, je vous laisse vous débrouiller
+Pour l'installation de Groovy, je vous laisse vous débrouiller: http://groovy-lang.org/install.html
 
 ## Mes choix d'outils
 
@@ -62,3 +62,16 @@ hello.hey()
 - et taper `groovy main.groovy` dans la zone de saisie
 
 ![:octocat:](pic/01-groovy.png)
+
+## Et enfin, utiliser un(des) jar(s) externe(s)
+
+C'est tout simple. Si vos fichiers `.jar` sont dans un répertoire `/jars` (par exemple), vous n'aurez qu'à lancer votre progrqmme de la façon suivante:
+
+```
+groovy -cp jars/*.jar main.groovy
+```
+
+Et dans votre code Groovy, vous n'avez plus qu'à importer les classes Java souhaitées (eg: `import org.eclipse.egit.github.core.client.GitHubClient`)
+
+Et voilà, vous avez de quoi commencer à coder en **Groovy** simplement et rapidement avec Atom. Maintenant, il ne vous reste plus qu'à trouver un bon bouquin sur Groovy et lire la 📖. :smile:
+
