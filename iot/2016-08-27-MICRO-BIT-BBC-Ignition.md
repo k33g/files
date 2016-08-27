@@ -1,6 +1,6 @@
 # Micro:bit - 1ère fois ... Avec Espruino
 
-## Intro - ???
+## Introduction
 
 J'ai beaucoup de chance, [@titimoby](https://twitter.com/titimoby) m'a passé hier un **micro:bit**. Le **micro:bit** est un micro-contrôleur distribué (gratuitement aux enfants) pour les initier à la programmation et à l'électronique (hep la :fr: vous faites quoi vous?!). Le **micro:bit** possède des leds, un accéléromètre, un magnétomètre et une antenne bluetooth. Vous trouverez des informations par ici: https://www.microbit.co.uk/
 
