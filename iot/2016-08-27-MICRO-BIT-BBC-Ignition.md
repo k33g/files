@@ -8,7 +8,7 @@
 Il y a différente façon de coder un micro:bit (see []()). En cherchant un peu sur Internet, j'ai vu que l'on pouvait utiliser le firmware Espruino sur un **micro:bit**, donc allons y ... :wink:
 
 - Activer le `Web Bluetooth` dans Chrome:
-  - aller ici [chrome://flags/#enable-web-bluetooth](chrome://flags/#enable-web-bluetooth)
+  - aller ici [chrome://flags/#enable-web-bluetooth](chrome://flags/#enable-web-bluetooth) (https://developers.google.com/web/updates/2015/07/interact-with-ble-devices-on-the-web?hl=en)
   - clicker sur [Enable](Enable)
   - relancer Chrome
 
