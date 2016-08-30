@@ -84,6 +84,8 @@ Et hop, c'est terminé pour cette fois ci.
 
 ## Resources
 
+- Aticle de @titimoby http://bricoletoimeme.blogspot.fr/2016/08/decouvrons-le-micro-bit.html
+
 ### JavaScript :wink:
 
 - micro:bit et nodejs: https://github.com/sandeepmistry/node-bbc-microbit
