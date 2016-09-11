@@ -3,7 +3,8 @@
 ## Websites
 
 - :us: http://typelevel.org/ *Let the Scala compiler work for you. We provide type classes, instances, conversions, testing, supplements to the standard library, and much more.*
-- :us: https://tech.evojam.com/tag/functional-programming/ blog posts about FP in JavaScript
+- :us: https://tech.evojam.com/tag/functional-programming/ *blog posts about FP in JavaScript*
+- :us: https://github.com/fantasyland/fantasy-land *Specification for interoperability of common algebraic structures in JavaScript*
 
 ## Videos
 
@@ -17,4 +18,10 @@
 - :us: Functional Programming in Java (Pierre-Yves Saumont): https://www.manning.com/books/functional-programming-in-java 
 - :us: Functional Programming in JavaScript (Luis Atencio): https://www.manning.com/books/functional-programming-in-javascript 
 - :us: Functional Programming in Scala (Paul Chiusano and Rúnar Bjarnason): https://www.manning.com/books/functional-programming-in-scala 
+
+## Contributing
+
+- Commit message is always: `Functional Programming Resources` (so we know the subject of the document in the files list)
+- You can add informations in the `Description` box
+- Always create a branch and pull request
 
