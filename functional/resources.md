@@ -3,6 +3,7 @@
 ## Websites
 
 - :us: http://typelevel.org/ *Let the Scala compiler work for you. We provide type classes, instances, conversions, testing, supplements to the standard library, and much more.*
+- :us: https://tech.evojam.com/tag/functional-programming/ blog posts about FP in JavaScript
 
 ## Videos
 
