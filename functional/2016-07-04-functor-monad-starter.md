@@ -6,7 +6,7 @@ J'ai souvent essayé de me mettre à Scala, mais j'ai souvent entendu des "gros 
 
 *Au passage, un GRAND MERCI aux [@CommitStrip](https://twitter.com/commitstrip)*
 
-... Mais c'est vexant de rien comprendre, du coup j'ai pris mon courage à 🙌 et j'ai recommencé, plutôt en regardant les autres langages, la théorie, etc... et tou ça avec du JavaScript. Oui, je sais, ce n'est pas typé, peut-être pas adapté, mais "je lis le JavaScript" 😜
+... Mais c'est vexant de rien comprendre, du coup j'ai pris mon courage à 🙌 et j'ai recommencé, plutôt en regardant les autres langages, la théorie, etc... et tout ça avec du JavaScript. Oui, je sais, ce n'est pas typé, peut-être pas adapté, mais "je lis le JavaScript" 😜
 
 ## Précautions d'usage
 
