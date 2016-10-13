@@ -139,6 +139,6 @@ let kebab = myKebabRecipe
 
 Quite easy and simple! No? 😉
 
-As you see, nothing complicated. Next time, will see **Union Types**.
+As you see, nothing complicated. Next time, we'll see **Union Types**.
 
 
