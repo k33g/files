@@ -149,7 +149,71 @@ bob.sayHi();
 bob.sayHello();
 ```
 
+Du coup Buster a préparé sa pull request
+
+> ICI IMAGE
+
+## Feature sayBye par Babs
+
+De son côté Babs crée elle aussi une feature `saybye.js`
+
+```javascript
+function sayBye() {
+  console.log(`Bye I'm ${this.firstName} ${this.lastName}`);
+}
+  
+module.exports = {
+  sayBye: sayBye
+};
+```
+
+Que nous pourrons utiliser de cette manière:
+
+```javascript
+const Human = require('./libs/Human').Human
+const sayBye = require('./libs/saybye')
+
+let bob = new Human({
+  firstName: "Bob",
+  lastName: "Morane"
+}, sayBye);
+
+bob.sayHi();
+bob.sayBye();
+```
+
+Babs a préparé elle aussi sa pull request
+
+> ICI IMAGE
+
+## Buster continue à n'en faire qu'à sa tête
+
+Donc à nouveau Buster merge:
+
+> ICI IMAGE
+
+Mais cette fois ci cela n'a aucun impact sur la pull request de Babs:
+
+> ICI IMAGE
+
+## Et finalement...
+
+Une fois toutes les features mergées, nous pourrons les utiliser comme ceci:
+
+```javascript
+const Human = require('./libs/Human').Human
+const sayHello = require('./libs/sayhello')
+const sayBye = require('./libs/saybye')
 
 
+let bob = new Human({
+  firstName: "Bob",
+  lastName: "Morane"
+}, sayHello, sayBye);
 
+bob.sayHi();
+bob.sayHello();
+bob.sayBye();
+```
 
+Donc dès fois, plutôt que de se compliquer la vie avec votre gestion de conf, penser à "écrire" votre code autrement (IMHO). :wink:
