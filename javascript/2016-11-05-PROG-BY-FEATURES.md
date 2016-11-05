@@ -21,3 +21,26 @@ Que j'ai ensuite mergée sur `master` ... Donc jusque là tout va bien
 
 ## Maintenant on bosse à plusieurs: "tiny toons in action"
 
+Dans un 1er temps, j'ai [@busterbunny69](https://github.com/busterbunny69) qui va proposer uen pull request en créant une "feature branch" `busterbunny69-wip-Hello` car il veut ajouter une méthode `sayHello()` à la classe `Human`:
+
+```javascript
+class Human {
+  constructor({firstName, lastName}) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+  }
+
+  sayHi() {
+    console.log(`Hi I'm ${this.firstName} ${this.lastName}`);
+  }
+  
+  sayHello() {
+    console.log(`Hello I'm ${this.firstName} ${this.lastName}`);
+  }
+}
+
+module.exports = {
+  Human: Human
+};
+```
+
