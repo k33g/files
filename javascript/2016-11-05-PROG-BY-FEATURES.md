@@ -1,10 +1,10 @@
-# Programmation par "features"
+# Programmation par "features" en JavaScript
 
 > WIP
 
 ## Création d'un projet sous GitHub
 
-En tant que @k33g, j'ai créé un projet https://github.com/walking-skeletons/earth-1. J'ai une "Team":
+En tant que [@k33g](https://github.com/k33g), j'ai créé un projet https://github.com/walking-skeletons/earth-1. J'ai une "Team":
 
 ![team](pics/1-team.png)
 
@@ -60,6 +60,9 @@ De son côté, [@babsbunny42](https://github.com/babsbunny42) souhaite ajouter v
 
 Donc [@busterbunny69](https://github.com/busterbunny69) décide sans plus attendre de merger sa PR:
 
+![buster-merge](pics/6-buster-merge.png)
 
-... Et nous fout un peu la :poop:
+Et il est tout content :smile: ... Et nous fout un peu la :poop:, surtout chez [@babsbunny42](https://github.com/babsbunny42) qui ne peut plus merger:
+
+![babs-no-merge](pics/7-babs-no-merge)
 
