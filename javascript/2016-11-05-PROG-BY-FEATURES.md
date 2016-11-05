@@ -6,14 +6,14 @@
 
 En tant que [@k33g](https://github.com/k33g), j'ai créé un projet https://github.com/walking-skeletons/earth-1. J'ai une "Team":
 
-![team](pics/1-team.png)
+![team](pics/1a-team.png)
 
 J'ai créé une première pull request en ajoutant du code:
 
 - `libs/Human.js`
 - `main.js`
 
-![first-pr](pics/2-first-pr.png)
+![first-pr](pics/2a-first-pr.png)
 
 Que j'ai ensuite mergée sur `master` ... Donc jusque là tout va bien
 
