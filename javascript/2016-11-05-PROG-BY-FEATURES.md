@@ -2,7 +2,7 @@
 
 > WIP
 
-## Création d'un projet sous GitHub
+## Création d'un projet "earth-1" sous GitHub
 
 En tant que [@k33g](https://github.com/k33g), j'ai créé un projet https://github.com/walking-skeletons/earth-1. J'ai une "Team":
 
@@ -65,6 +65,12 @@ Donc [@busterbunny69](https://github.com/busterbunny69) décide sans plus attend
 Et il est tout content :smile: ... Et nous fout un peu la :poop:, surtout chez [@babsbunny42](https://github.com/babsbunny42) qui ne peut plus merger:
 
 ![babs-no-merge](pics/7a-babs-no-merge.png)
+
+Alors ce n'est pas plus grave que ça, **git** est là pour nous aider. Mais imaginez une équipe plus nombreuse, pas forcément disciplinée (mais quelle idée de bosser en même temps sur la même classe :laughing: ... oui je sais dès fois on n'a pas le choix), etc... 
+Mais est-ce que notre façon d'écrire du code ne pourrait pas nous aider à éviter ce type de collision?
+
+## Une autre version: Création d'un projet "earth-2"
+
 
 
 
