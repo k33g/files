@@ -1,6 +1,6 @@
 # Programmation par "features"
 
-
+> WIP
 
 ## Création d'un projet sous GitHub
 
@@ -12,4 +12,8 @@ J'ai créé une première pull request en ajoutant du code:
 
 - `libs/Human.js`
 - `main.js`
+
+![team](pics/2-first-pr.png)
+
+Que j'ai ensuite mergé sur `master` ... Donc jusque là tout va bien
 
