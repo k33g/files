@@ -44,6 +44,8 @@ module.exports = {
 };
 ```
 
+![buster-pr](pics/4-buster-pr.png)
+
 De son côté, [@babsbunny42](https://github.com/babsbunny42) souhaite ajouter via la branche `babsbunny42-wip-bye` une méthode `sayBye()`  à la classe `Human`:
 
 ```javascript
@@ -52,5 +54,12 @@ De son côté, [@babsbunny42](https://github.com/babsbunny42) souhaite ajouter v
   }
 ```
 
+![babs-pr](pics/5-babs-pr.png)
 
+## Et Buster n'attend pas Babs, il merge!
+
+Donc [@busterbunny69](https://github.com/busterbunny69) décide sans plus attendre de merger sa PR:
+
+
+... Et nous fout un peu la :poop:
 
