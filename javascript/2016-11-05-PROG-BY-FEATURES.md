@@ -71,6 +71,85 @@ Mais est-ce que notre façon d'écrire du code ne pourrait pas nous aider à év
 
 ## Une autre version: Création d'un projet "earth-2"
 
+Alors en tant que [@k33g](https://github.com/k33g), j'ai créé un nouveau projet https://github.com/walking-skeletons/earth-2 avec la même team. Mais cette fois ci j'ai une petite différence dans ma classe `Human`:
+
+```javascript
+class Human {
+  constructor({firstName, lastName}, ...features) {
+    this.firstName = firstName;
+    this.lastName = lastName;
+    return Object.assign(this, ...features);
+  }
+
+  sayHi() {
+    console.log(`Hi I'm ${this.firstName} ${this.lastName}`);
+  }
+}
+
+module.exports = {
+  Human: Human
+};
+```
+
+### Qu'est-ce qui a changé?
+
+Essentiellement mon constructeur:
+
+- `constructor({firstName, lastName}, ...features)` avec `...features` qui me permet de multiples arguments à une méthode sans savoir focément à l'avance combien (cf. https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Operators/Spread_operator)
+- puis `return Object.assign(this, ...features);` qui va cloner `this` (l'instance de la classe) et lui coller les propriétés ou méthodes contenu dans `...features` et retourner un nouvel objet. (cf. https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/Object/assign) Pensez au traits de Scala ou Groovy (ou les augmentations nommées de Golo)
+
+### Mais ça sert à quoi?
+
+Un bout de code sera plus parlant:
+
+```javascript
+const Human = require('./libs/Human').Human
+
+function goodMorning() {
+  console.log(`Good Morning I'm ${this.firstName} ${this.lastName}`);
+}
+
+let bob = new Human({
+  firstName: "Bob",
+  lastName: "Morane"
+}, {goodMorning:goodMorning});
+
+bob.sayHi();
+bob.goodMorning();
+```
+
+J'ai donc "greffé" une nouvelle méthode à mon instance de `Human` sans avoir à modifier la classe `Human`. Du coup, maintenant [@babsbunny42](https://github.com/babsbunny42) et [@busterbunny69](https://github.com/busterbunny69) ne devraient plus se marcher sur les pieds:
+
+## Feature sayHello par Buster
+
+Cette fois-ci [@busterbunny69](https://github.com/busterbunny69) ne va pas modifier `Human.js` mais créer une "feature" `sayhello.js`:
+
+```javascript
+function sayHello() {
+  console.log(`Hello I'm ${this.firstName} ${this.lastName}`);
+}
+
+module.exports = {
+  sayHello: sayHello
+};
+```
+
+Et pour l'utiliser il fera ceci:
+
+```javascript
+const Human = require('./libs/Human').Human
+const sayHello = require('./libs/sayhello')
+
+let bob = new Human({
+  firstName: "Bob",
+  lastName: "Morane"
+}, sayHello);
+
+bob.sayHi();
+bob.sayHello();
+```
+
+
 
 
 
