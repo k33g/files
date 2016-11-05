@@ -13,7 +13,11 @@ J'ai créé une première pull request en ajoutant du code:
 - `libs/Human.js`
 - `main.js`
 
-![team](pics/2-first-pr.png)
+![first-pr](pics/2-first-pr.png)
 
-Que j'ai ensuite mergé sur `master` ... Donc jusque là tout va bien
+Que j'ai ensuite mergée sur `master` ... Donc jusque là tout va bien
+
+![first-merge](pics/3-first-merge.png)
+
+## Maintenant on bosse à plusieurs: "tiny toons in action"
 
