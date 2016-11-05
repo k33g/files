@@ -1,4 +1,5 @@
 # Programmation par "features" en JavaScript
+## Et l'impact de Object.assign sur ma gestion de conf
 
 Lorsque l'on bosse sur un projet (de dev) à plusieurs, il arrive que l'on se marche un peu sur les pieds (je suis tellement doué que même seul j'y arrive :stuck_out_tongue_winking_eye:) et que l'on génère ce que j'appelle des "collisions de code" (des conflits). En y réfléchissant, il y a des pratiques pour résoudre ces conflits, mais pour aussi les **éviter** (et je suis partisan du "moins d'ennuis possible").
 Donc aujourd'hui, je vais vous expliquer par le biais d'un exemple JavaScript comment j'essaie d'éviter certains "ennuis de code" grâce au concept des **"mixins"** avec `Object.assign`, mais cela peut s'adapter à d'autres langages, notamment avec le concept de **traits**.
