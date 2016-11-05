@@ -64,5 +64,5 @@ Donc [@busterbunny69](https://github.com/busterbunny69) décide sans plus attend
 
 Et il est tout content :smile: ... Et nous fout un peu la :poop:, surtout chez [@babsbunny42](https://github.com/babsbunny42) qui ne peut plus merger:
 
-![babs-no-merge](pics/7-babs-no-merge)
+![babs-no-merge](pics/7-babs-no-merge.png)
 
