@@ -21,7 +21,7 @@ Que j'ai ensuite mergée sur `master` ... Donc jusque là tout va bien
 
 ## Maintenant on bosse à plusieurs: "tiny toons in action"
 
-Dans un 1er temps, j'ai [@busterbunny69](https://github.com/busterbunny69) qui va proposer uen pull request en créant une "feature branch" `busterbunny69-wip-Hello` car il veut ajouter une méthode `sayHello()` à la classe `Human`:
+Dans un 1er temps, j'ai [@busterbunny69](https://github.com/busterbunny69) qui va proposer une pull request en créant une branche `busterbunny69-wip-Hello` car il veut ajouter une méthode `sayHello()` à la classe `Human`:
 
 ```javascript
 class Human {
@@ -43,4 +43,14 @@ module.exports = {
   Human: Human
 };
 ```
+
+De son côté, [@babsbunny42](https://github.com/babsbunny42) souhaite ajouter via la branche `babsbunny42-wip-bye` une méthode `sayBye()`  à la classe `Human`:
+
+```javascript
+  sayBye() {
+    console.log(`Bye I'm ${this.firstName} ${this.lastName}`);
+  }
+```
+
+
 
