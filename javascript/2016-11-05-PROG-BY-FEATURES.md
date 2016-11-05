@@ -1,6 +1,9 @@
 # Programmation par "features" en JavaScript
 
-> WIP
+Lorsque l'on bosse sur un projet (de dev) à plusieurs, il arrive que l'on se marche un peu sur les pieds (je suis tellement doué que même seul j'y arrive :stuck_out_tongue_winking_eye:) et que l'on génère ce que j'appelle des "collisions de code" (des conflits). En y réfléchissant, il y a des pratiques pour résoudre ces conflits, mais pour aussi les **éviter** (et je suis partisan du "moins d'ennuis possible").
+Donc aujourd'hui, je vais vous expliquer par le biais d'un exemple JavaScript comment j'essaie d'éviter certains "ennuis de code" grâce au concept des **"mixins"** avec `Object.assign`, mais cela peut s'adapter à d'autres langages, notamment avec le concept de **traits**.
+
+Mais laissez moi vous décrire ma problématique par l'exemple. (et bonne lecture :simple_smile:)
 
 ## Création d'un projet "earth-1" sous GitHub
 
@@ -151,7 +154,7 @@ bob.sayHello();
 
 Du coup Buster a préparé sa pull request
 
-> ICI IMAGE
+![buster-pr](pics/8a-buster-pr.png)
 
 ## Feature sayBye par Babs
 
@@ -182,19 +185,19 @@ bob.sayHi();
 bob.sayBye();
 ```
 
-Babs a préparé elle aussi sa pull request
+Babs a donc préparé elle aussi sa pull request
 
-> ICI IMAGE
+![babs-pr](pics/9a-babs-pr.png)
 
 ## Buster continue à n'en faire qu'à sa tête
 
 Donc à nouveau Buster merge:
 
-> ICI IMAGE
+![buster-merge](pics/10a-buster-merge)
 
-Mais cette fois ci cela n'a aucun impact sur la pull request de Babs:
+Mais cette fois ci cela n'a plus aucun impact sur la pull request de Babs:
 
-> ICI IMAGE
+![babs-can-merge](pics/11a-babs-can-merge)
 
 ## Et finalement...
 
@@ -216,4 +219,4 @@ bob.sayHello();
 bob.sayBye();
 ```
 
-Donc dès fois, plutôt que de se compliquer la vie avec votre gestion de conf, penser à "écrire" votre code autrement (IMHO). :wink:
+Donc dès fois, plutôt que de se compliquer la vie avec votre gestion de conf, pensez à "écrire" votre code autrement (IMHO). :wink:
