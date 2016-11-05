@@ -17,7 +17,7 @@ J'ai créé une première pull request en ajoutant du code:
 
 Que j'ai ensuite mergée sur `master` ... Donc jusque là tout va bien
 
-![first-merge](pics/3-first-merge.png)
+![first-merge](pics/3a-first-merge.png)
 
 ## Maintenant on bosse à plusieurs: "tiny toons in action"
 
@@ -44,7 +44,7 @@ module.exports = {
 };
 ```
 
-![buster-pr](pics/4-buster-pr.png)
+![buster-pr](pics/4a-buster-pr.png)
 
 De son côté, [@babsbunny42](https://github.com/babsbunny42) souhaite ajouter via la branche `babsbunny42-wip-bye` une méthode `sayBye()`  à la classe `Human`:
 
@@ -54,15 +54,17 @@ De son côté, [@babsbunny42](https://github.com/babsbunny42) souhaite ajouter v
   }
 ```
 
-![babs-pr](pics/5-babs-pr.png)
+![babs-pr](pics/5a-babs-pr.png)
 
 ## Et Buster n'attend pas Babs, il merge!
 
 Donc [@busterbunny69](https://github.com/busterbunny69) décide sans plus attendre de merger sa PR:
 
-![buster-merge](pics/6-buster-merge.png)
+![buster-merge](pics/6a-buster-merge.png)
 
 Et il est tout content :smile: ... Et nous fout un peu la :poop:, surtout chez [@babsbunny42](https://github.com/babsbunny42) qui ne peut plus merger:
 
-![babs-no-merge](pics/7-babs-no-merge.png)
+![babs-no-merge](pics/7a-babs-no-merge.png)
+
+
 
