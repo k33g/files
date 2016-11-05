@@ -199,6 +199,8 @@ Mais cette fois ci cela n'a plus aucun impact sur la pull request de Babs:
 
 ![babs-can-merge](pics/11a-babs-can-merge.png)
 
+Donc toute l'équipe peu bosser un peu plus sereinement, sans coller la :poop: dans le projet
+
 ## Et finalement...
 
 Une fois toutes les features mergées, nous pourrons les utiliser comme ceci:
