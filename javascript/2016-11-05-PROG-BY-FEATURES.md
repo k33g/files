@@ -193,11 +193,11 @@ Babs a donc préparé elle aussi sa pull request
 
 Donc à nouveau Buster merge:
 
-![buster-merge](pics/10a-buster-merge)
+![buster-merge](pics/10a-buster-merge.png)
 
 Mais cette fois ci cela n'a plus aucun impact sur la pull request de Babs:
 
-![babs-can-merge](pics/11a-babs-can-merge)
+![babs-can-merge](pics/11a-babs-can-merge.png)
 
 ## Et finalement...
 
