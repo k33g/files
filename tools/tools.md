@@ -15,3 +15,7 @@
 
 - comme Alfred https://github.com/tinytacoteam/zazu
 
+## IDE Web
+
+- https://github.com/eclipse/orion.client
+- http://www.eclipse.org/che/
